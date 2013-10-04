@@ -1,0 +1,32 @@
+NAME
+    SHARYANTO::Roles - SHARYANTO's temporary namespace for various roles
+
+VERSION
+    version 0.62
+
+FAQ
+  What is this?
+    This distribution is a heterogenous collection of roles currently used
+    in my modules and applications. The roles will eventually have their own
+    proper names and distributions, if they prove to be worth it.
+
+    See SHARYANTO about this temporary namespace.
+
+SEE ALSO
+    SHARYANTO
+
+    SHARYANTO::Utils
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
+DESCRIPTION
+FUNCTIONS
+    None are exported by default, but they are exportable.
+

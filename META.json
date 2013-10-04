@@ -1,0 +1,63 @@
+{
+   "abstract" : "SHARYANTO's temporary namespace for various roles",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "SHARYANTO-Roles",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08",
+            "Test::Rinci" : "0.01"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "Term::Size" : "0"
+         },
+         "requires" : {
+            "Color::ANSI::Util" : "0.03",
+            "Locale::Maketext::Lexicon" : "0",
+            "Log::Any" : "0",
+            "Module::List" : "0",
+            "Moo::Role" : "0",
+            "Perinci::Object" : "0.07",
+            "Term::Detect::Software" : "0",
+            "perl" : "5.010001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://metacpan.org/release/SHARYANTO-Roles",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-SHARYANTO-Roles"
+      }
+   },
+   "version" : "0.62"
+}
+
