@@ -8,19 +8,18 @@ use Color::ANSI::Util qw(ansi16fg ansi16bg
                          ansi256fg ansi256bg
                          ansi24bfg ansi24bbg);
 
-our $VERSION = '0.62'; # VERSION
+our $VERSION = '0.63'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
 has color_theme_args  => (is => 'rw', default => sub { {} });
 has _all_color_themes => (is => 'rw');
-has color_theme_class_prefix => (
-    is => 'rw',
-    default => sub {
-        my $self = shift;
-        (ref($self) ? ref($self) : $self ) . '::ColorTheme';
-    },
-);
+
+sub color_theme_class_prefix {
+    my $self = shift;
+
+    (ref($self) ? ref($self) : $self ) . '::ColorTheme';
+}
 
 sub color_theme {
     my $self = shift;
@@ -184,7 +183,7 @@ SHARYANTO::Role::ColorTheme - Role for class wanting to support color themes
 
 =head1 VERSION
 
-version 0.62
+version 0.63
 
 =head1 DESCRIPTION
 
