@@ -5,7 +5,7 @@ package SHARYANTO::Role::BorderStyle;
 use 5.010;
 use Moo::Role;
 
-our $VERSION = '0.64'; # VERSION
+our $VERSION = '0.65'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
@@ -122,7 +122,7 @@ SHARYANTO::Role::BorderStyle - Role for class wanting to support border styles
 
 =head1 VERSION
 
-version 0.64
+version 0.65
 
 =head1 DESCRIPTION
 
