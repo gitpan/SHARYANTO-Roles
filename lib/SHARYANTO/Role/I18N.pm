@@ -4,7 +4,7 @@ use 5.010;
 use Log::Any '$log';
 use Moo::Role;
 
-our $VERSION = '0.63'; # VERSION
+our $VERSION = '0.64'; # VERSION
 
 has lang => (
     is => 'rw',
@@ -75,7 +75,7 @@ SHARYANTO::Role::I18N - Role for internationalized class
 
 =head1 VERSION
 
-version 0.63
+version 0.64
 
 =head1 DESCRIPTION
 

@@ -3,7 +3,7 @@ package SHARYANTO::Role::TermAttrs;
 use 5.010;
 use Moo::Role;
 
-our $VERSION = '0.63'; # VERSION
+our $VERSION = '0.64'; # VERSION
 
 my $dt_cache;
 sub detect_terminal {
@@ -46,7 +46,7 @@ has use_color => (
     default => sub {
         my $self = shift;
         $ENV{COLOR} // $ENV{INTERACTIVE} //
-            $self->detect_terminal->{color_depth} > 0;
+            $self->color_depth > 0;
     },
 );
 
@@ -130,7 +130,7 @@ SHARYANTO::Role::TermAttrs - Role for terminal-related attributes
 
 =head1 VERSION
 
-version 0.63
+version 0.64
 
 =head1 DESCRIPTION
 

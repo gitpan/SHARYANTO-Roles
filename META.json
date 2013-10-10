@@ -4,7 +4,7 @@
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510",
    "license" : [
       "perl_5"
    ],
@@ -44,7 +44,6 @@
       },
       "test" : {
          "requires" : {
-            "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
             "Test::More" : "0"
@@ -58,6 +57,6 @@
          "url" : "http://github.com/sharyanto/perl-SHARYANTO-Roles"
       }
    },
-   "version" : "0.63"
+   "version" : "0.64"
 }
 
