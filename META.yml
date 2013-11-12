@@ -3,6 +3,7 @@ abstract: "SHARYANTO's temporary namespace for various roles"
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 build_requires:
+  File::Spec: 0
   IO::Handle: 0
   IPC::Open3: 0
   Test::More: 0
@@ -27,6 +28,7 @@ requires:
   Term::Detect::Software: 0
   perl: 5.010001
 resources:
-  homepage: http://metacpan.org/release/SHARYANTO-Roles
-  repository: http://github.com/sharyanto/perl-SHARYANTO-Roles
-version: 0.65
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles
+  homepage: https://metacpan.org/release/SHARYANTO-Roles
+  repository: git://github.com/sharyanto/perl-SHARYANTO-Roles.git
+version: 0.66

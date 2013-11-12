@@ -4,7 +4,7 @@ use 5.010;
 use Log::Any '$log';
 use Moo::Role;
 
-our $VERSION = '0.65'; # VERSION
+our $VERSION = '0.66'; # VERSION
 
 has doc_sections => (is=>'rw');
 has doc_lines => (is => 'rw'); # store final result, array
@@ -102,7 +102,7 @@ __END__
 
 =pod
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -110,7 +110,7 @@ SHARYANTO::Role::Doc::Section - Role for class that generates documentation with
 
 =head1 VERSION
 
-version 0.65
+version 0.66
 
 =head1 DESCRIPTION
 
@@ -127,6 +127,11 @@ concatenated together and returned by C<gen_doc()>.
 This module uses L<Log::Any> for logging.
 
 This module uses L<Moo> for object system.
+
+=head1 FUNCTIONS
+
+
+None are exported by default, but they are exportable.
 
 =head1 ATTRIBUTES
 
@@ -180,6 +185,23 @@ This role is used, among others, by: C<Perinci::To::*> modules.
 L<SHARYANTO::Role::Doc::Section::AddTextLines> which provides C<add_doc_lines>
 to add text with optional text wrapping.
 
+=head1 HOMEPAGE
+
+Please visit the project's homepage at L<https://metacpan.org/release/SHARYANTO-Roles>.
+
+=head1 SOURCE
+
+Source repository is at L<https://github.com/sharyanto/perl-SHARYANTO-Roles>.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
 =head1 AUTHOR
 
 Steven Haryanto <stevenharyanto@gmail.com>
@@ -190,10 +212,5 @@ This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
 
 =cut

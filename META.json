@@ -44,6 +44,7 @@
       },
       "test" : {
          "requires" : {
+            "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
             "Test::More" : "0"
@@ -52,11 +53,16 @@
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://metacpan.org/release/SHARYANTO-Roles",
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles"
+      },
+      "homepage" : "https://metacpan.org/release/SHARYANTO-Roles",
       "repository" : {
-         "url" : "http://github.com/sharyanto/perl-SHARYANTO-Roles"
+         "type" : "git",
+         "url" : "git://github.com/sharyanto/perl-SHARYANTO-Roles.git",
+         "web" : "https://github.com/sharyanto/perl-SHARYANTO-Roles"
       }
    },
-   "version" : "0.65"
+   "version" : "0.66"
 }
 

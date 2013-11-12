@@ -8,7 +8,7 @@ use Color::ANSI::Util qw(ansi16fg ansi16bg
                          ansi256fg ansi256bg
                          ansi24bfg ansi24bbg);
 
-our $VERSION = '0.65'; # VERSION
+our $VERSION = '0.66'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
@@ -175,7 +175,7 @@ __END__
 
 =pod
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -183,7 +183,7 @@ SHARYANTO::Role::ColorTheme - Role for class wanting to support color themes
 
 =head1 VERSION
 
-version 0.65
+version 0.66
 
 =head1 DESCRIPTION
 
@@ -208,6 +208,11 @@ border color, random color, etc (see L<Text::ANSITable::ColorTheme::Demo> for an
 example). Code will be called with C<< ($self, %args) >> where C<%args> contains
 various information, like C<name> (the item name being requested), etc. In
 Text::ANSITable, you can get the row position from C<< $self->{_draw}{y} >>.
+
+=head1 FUNCTIONS
+
+
+None are exported by default, but they are exportable.
 
 =head1 ATTRIBUTES
 
@@ -237,6 +242,23 @@ Convert a color from color theme (which can be a scalar containing color code,
 or a coderef that generates a color code) to ANSI escape code. C<< %args >> will
 be sent to coderef.
 
+=head1 HOMEPAGE
+
+Please visit the project's homepage at L<https://metacpan.org/release/SHARYANTO-Roles>.
+
+=head1 SOURCE
+
+Source repository is at L<https://github.com/sharyanto/perl-SHARYANTO-Roles>.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
 =head1 AUTHOR
 
 Steven Haryanto <stevenharyanto@gmail.com>
@@ -247,10 +269,5 @@ This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
 
 =cut
