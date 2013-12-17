@@ -3,7 +3,7 @@ use warnings;
 
 # this test was generated with Dist::Zilla::Plugin::Test::Compile 2.037
 
-use Test::More  tests => 9 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
+use Test::More  tests => 6 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
 
 
 
@@ -12,9 +12,6 @@ my @module_files = (
     'SHARYANTO/Role/ColorTheme.pm',
     'SHARYANTO/Role/Doc/Section.pm',
     'SHARYANTO/Role/Doc/Section/AddTextLines.pm',
-    'SHARYANTO/Role/I18N.pm',
-    'SHARYANTO/Role/I18NMany.pm',
-    'SHARYANTO/Role/I18NRinci.pm',
     'SHARYANTO/Role/TermAttrs.pm',
     'SHARYANTO/Roles.pm'
 );

@@ -2,7 +2,7 @@ package SHARYANTO::Roles;
 
 use 5.010001;
 
-our $VERSION = '0.66'; # VERSION
+our $VERSION = '0.67'; # VERSION
 
 1;
 # ABSTRACT: SHARYANTO's temporary namespace for various roles
@@ -19,14 +19,7 @@ SHARYANTO::Roles - SHARYANTO's temporary namespace for various roles
 
 =head1 VERSION
 
-version 0.66
-
-=head1 DESCRIPTION
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
+version 0.67
 
 =head1 FAQ
 
@@ -54,8 +47,7 @@ Source repository is at L<https://github.com/sharyanto/perl-SHARYANTO-Roles>.
 
 =head1 BUGS
 
-Please report any bugs or feature requests on the bugtracker website
-L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
+Please report any bugs or feature requests on the bugtracker website L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired

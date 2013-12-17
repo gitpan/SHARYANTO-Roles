@@ -4,7 +4,7 @@ use 5.010;
 use Log::Any '$log';
 use Moo::Role;
 
-our $VERSION = '0.66'; # VERSION
+our $VERSION = '0.67'; # VERSION
 
 requires 'doc_lines';
 requires 'doc_indent_level';
@@ -111,7 +111,7 @@ SHARYANTO::Role::Doc::Section::AddTextLines - Provide add_doc_lines() to add tex
 
 =head1 VERSION
 
-version 0.66
+version 0.67
 
 =head1 DESCRIPTION
 
@@ -120,11 +120,6 @@ C<doc_lines>.
 
 The default column width for wrapping is from C<COLUMNS> environment variable,
 or 80.
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
 
 =head1 ATTRIBUTES
 
@@ -178,8 +173,7 @@ Source repository is at L<https://github.com/sharyanto/perl-SHARYANTO-Roles>.
 
 =head1 BUGS
 
-Please report any bugs or feature requests on the bugtracker website
-L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
+Please report any bugs or feature requests on the bugtracker website L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired

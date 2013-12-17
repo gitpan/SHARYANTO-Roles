@@ -2,11 +2,7 @@ NAME
     SHARYANTO::Roles - SHARYANTO's temporary namespace for various roles
 
 VERSION
-    version 0.66
-
-DESCRIPTION
-FUNCTIONS
-    None are exported by default, but they are exportable.
+    version 0.67
 
 FAQ
   What is this?

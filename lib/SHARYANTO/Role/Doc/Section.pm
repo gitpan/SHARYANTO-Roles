@@ -4,7 +4,7 @@ use 5.010;
 use Log::Any '$log';
 use Moo::Role;
 
-our $VERSION = '0.66'; # VERSION
+our $VERSION = '0.67'; # VERSION
 
 has doc_sections => (is=>'rw');
 has doc_lines => (is => 'rw'); # store final result, array
@@ -110,7 +110,7 @@ SHARYANTO::Role::Doc::Section - Role for class that generates documentation with
 
 =head1 VERSION
 
-version 0.66
+version 0.67
 
 =head1 DESCRIPTION
 
@@ -127,11 +127,6 @@ concatenated together and returned by C<gen_doc()>.
 This module uses L<Log::Any> for logging.
 
 This module uses L<Moo> for object system.
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
 
 =head1 ATTRIBUTES
 
@@ -195,8 +190,7 @@ Source repository is at L<https://github.com/sharyanto/perl-SHARYANTO-Roles>.
 
 =head1 BUGS
 
-Please report any bugs or feature requests on the bugtracker website
-L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
+Please report any bugs or feature requests on the bugtracker website L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired

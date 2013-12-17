@@ -8,7 +8,7 @@ use Color::ANSI::Util qw(ansi16fg ansi16bg
                          ansi256fg ansi256bg
                          ansi24bfg ansi24bbg);
 
-our $VERSION = '0.66'; # VERSION
+our $VERSION = '0.67'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
@@ -183,7 +183,7 @@ SHARYANTO::Role::ColorTheme - Role for class wanting to support color themes
 
 =head1 VERSION
 
-version 0.66
+version 0.67
 
 =head1 DESCRIPTION
 
@@ -208,11 +208,6 @@ border color, random color, etc (see L<Text::ANSITable::ColorTheme::Demo> for an
 example). Code will be called with C<< ($self, %args) >> where C<%args> contains
 various information, like C<name> (the item name being requested), etc. In
 Text::ANSITable, you can get the row position from C<< $self->{_draw}{y} >>.
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
 
 =head1 ATTRIBUTES
 
@@ -252,8 +247,7 @@ Source repository is at L<https://github.com/sharyanto/perl-SHARYANTO-Roles>.
 
 =head1 BUGS
 
-Please report any bugs or feature requests on the bugtracker website
-L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
+Please report any bugs or feature requests on the bugtracker website L<https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles>
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
