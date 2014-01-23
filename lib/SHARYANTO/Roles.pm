@@ -2,7 +2,7 @@ package SHARYANTO::Roles;
 
 use 5.010001;
 
-our $VERSION = '0.68'; # VERSION
+our $VERSION = '0.69'; # VERSION
 
 1;
 # ABSTRACT: SHARYANTO's temporary namespace for various roles
@@ -19,7 +19,7 @@ SHARYANTO::Roles - SHARYANTO's temporary namespace for various roles
 
 =head1 VERSION
 
-version 0.68
+version 0.69
 
 =head1 FAQ
 
@@ -59,7 +59,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Steven Haryanto.
+This software is copyright (c) 2014 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
