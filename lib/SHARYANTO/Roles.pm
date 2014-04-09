@@ -2,7 +2,7 @@ package SHARYANTO::Roles;
 
 use 5.010001;
 
-our $VERSION = '0.69'; # VERSION
+our $VERSION = '0.70'; # VERSION
 
 1;
 # ABSTRACT: SHARYANTO's temporary namespace for various roles
@@ -19,7 +19,7 @@ SHARYANTO::Roles - SHARYANTO's temporary namespace for various roles
 
 =head1 VERSION
 
-version 0.69
+version 0.70
 
 =head1 FAQ
 

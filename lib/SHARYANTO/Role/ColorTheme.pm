@@ -8,7 +8,7 @@ use Color::ANSI::Util qw(ansi16fg ansi16bg
                          ansi256fg ansi256bg
                          ansi24bfg ansi24bbg);
 
-our $VERSION = '0.69'; # VERSION
+our $VERSION = '0.70'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
@@ -183,7 +183,7 @@ SHARYANTO::Role::ColorTheme - Role for class wanting to support color themes
 
 =head1 VERSION
 
-version 0.69
+version 0.70
 
 =head1 DESCRIPTION
 
