@@ -30,7 +30,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Roles
   homepage: https://metacpan.org/release/SHARYANTO-Roles
   repository: git://github.com/sharyanto/perl-SHARYANTO-Roles.git
-version: 0.70
+version: 0.71
 x_Dist_Zilla:
   perl:
     version: 5.018001
