@@ -5,7 +5,7 @@ package SHARYANTO::Role::BorderStyle;
 use 5.010;
 use Moo::Role;
 
-our $VERSION = '0.71'; # VERSION
+our $VERSION = '0.72'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
@@ -82,7 +82,7 @@ sub list_border_styles {
 
     if (!$all_bs) {
         my $mods = Module::List::list_modules("$prefix\::",
-                                              {list_modules=>1});
+                                              {list_modules=>1, recurse=>1});
         no strict 'refs';
         $all_bs = {};
         for my $mod (sort keys %$mods) {
@@ -122,7 +122,7 @@ SHARYANTO::Role::BorderStyle - Role for class wanting to support border styles
 
 =head1 VERSION
 
-version 0.71
+version 0.72
 
 =head1 DESCRIPTION
 

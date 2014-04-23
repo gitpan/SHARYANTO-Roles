@@ -8,7 +8,7 @@ use Color::ANSI::Util qw(ansi16fg ansi16bg
                          ansi256fg ansi256bg
                          ansi24bfg ansi24bbg);
 
-our $VERSION = '0.71'; # VERSION
+our $VERSION = '0.72'; # VERSION
 
 with 'SHARYANTO::Role::TermAttrs';
 
@@ -143,7 +143,7 @@ sub list_color_themes {
 
     if (!$all_ct) {
         my $mods = Module::List::list_modules("$prefix\::",
-                                              {list_modules=>1});
+                                              {list_modules=>1, recurse=>1});
         no strict 'refs';
         $all_ct = {};
         for my $mod (sort keys %$mods) {
@@ -183,7 +183,7 @@ SHARYANTO::Role::ColorTheme - Role for class wanting to support color themes
 
 =head1 VERSION
 
-version 0.71
+version 0.72
 
 =head1 DESCRIPTION
 

@@ -3,7 +3,7 @@ package SHARYANTO::Role::TermAttrs;
 use 5.010;
 use Moo::Role;
 
-our $VERSION = '0.71'; # VERSION
+our $VERSION = '0.72'; # VERSION
 
 my $dt_cache;
 sub detect_terminal {
@@ -234,7 +234,7 @@ SHARYANTO::Role::TermAttrs - Role for terminal-related attributes
 
 =head1 VERSION
 
-version 0.71
+version 0.72
 
 =head1 DESCRIPTION
 
